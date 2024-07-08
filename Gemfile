@@ -8,3 +8,8 @@ gem 'sinatra-contrib'
 gem 'puma'
 gem 'rackup'
 gem 'irb'
+gem 'net-http'
+
+group :test do
+  gem 'rspec'
+end

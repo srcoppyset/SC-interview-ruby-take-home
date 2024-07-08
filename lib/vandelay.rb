@@ -24,4 +24,8 @@ module Vandelay
   def self.config_path
     @config_path ||= File.expand_path("../#{self.config_file_for_env}", File.dirname(__FILE__))
   end
+
+  def self.redis
+    @redis ||= Redis.new
+  end
 end

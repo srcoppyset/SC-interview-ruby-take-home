@@ -1,4 +1,5 @@
 require 'json'
+require 'net/http'
 require 'sinatra/base'
 require 'sinatra/json'
 
